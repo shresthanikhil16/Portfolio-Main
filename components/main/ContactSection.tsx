@@ -303,7 +303,7 @@ export default function ContactSection() {
 
         <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "80px 32px 100px", position: "relative", zIndex: 1 }}>
           {/* Top badge */}
-          <div className="section-badge">// CONTACT</div>
+          <div className="section-badge">{'// CONTACT'}</div>
 
           <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: "48px" }}>
             {/* Two-column layout on larger screens */}
@@ -313,7 +313,7 @@ export default function ContactSection() {
               {/* LEFT */}
               <div>
                 <h1 style={{ fontSize: "clamp(72px, 10vw, 148px)", margin: 0, marginBottom: "24px" }}>
-                  <span className="heading-word">LET'S</span>
+                  <span className="heading-word">LET&apos;S</span>
                   <span className="heading-word">BUILD</span>
                   <span className="heading-word">GREAT</span>
                 </h1>
@@ -330,8 +330,8 @@ export default function ContactSection() {
                   animation: "fadeUp 0.6s ease 0.7s both",
                   opacity: 0,
                 }}>
-                  Have a project in mind? I'd love to hear about it.
-                  Let's create something remarkable together.
+                  Have a project in mind? I&apos;d love to hear about it.
+                  Let&apos;s create something remarkable together.
                 </p>
 
                 {/* Contact list */}
@@ -386,7 +386,7 @@ export default function ContactSection() {
                 </div>
 
                 {sent ? (
-                  <div className="sent-msg">✓ MESSAGE SENT — I'LL BE IN TOUCH SOON</div>
+                  <div className="sent-msg">✓ MESSAGE SENT — I&apos;LL BE IN TOUCH SOON</div>
                 ) : (
                   <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column" }}>
                     <div className="field-wrapper">
